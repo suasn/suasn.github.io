@@ -1,0 +1,3 @@
+[submodule "suasn/themes/personal-web"]
+	path = suasn/themes/personal-web
+	url = https://github.com/bjacquemet/personal-web.git

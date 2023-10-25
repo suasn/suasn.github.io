@@ -1,0 +1,4 @@
+baseURL = 'https://suasn.github.io/'
+languageCode = 'en-us'
+title = 'Susan Su'
+theme = 'personal-web'
