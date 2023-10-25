@@ -1,0 +1,105 @@
+baseURL = 'https://suasn.github.io/'
+languageCode = 'en-us'
+title = 'Susan Su'
+theme = 'personal-web'
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Susan Su"
+  sub = "MIT '23"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio']
+
+[params.notFound]
+  gopher = "/images/gopher.png"
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = ''
+  gradientOverlay = ''
+  logo = ""
+
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  twitter = "https://twitter.com/iamsuasn"
+  linkedin = "https://www.linkedin.com/in/susan-su"
+
+[params.contact]
+  email = ""
+  text= ""
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  title = "Projects"
+  url = "/projects/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "research"
+  name = "Research"
+  title = "Research"
+  url = "/research/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "writings"
+  name = "Writings"
+  title = "Writings"
+  url = "/writings/"
+  weight = -100
+
+[[menu.main]]
+  identifier = "fun"
+  name = "Fun"
+  title = "Fun"
+  url = "/fun/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
